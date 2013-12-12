@@ -1,0 +1,253 @@
+/*QUESTIONS FOR BEN--
+1. Why is the nav bar turning full background color when small?
+2. the background image for twitter and fb--the words show up so I had to make them invisible but then they become clickable and the image isn't
+3. Only way to override link color is by calling A tag in CSS
+4.is OMGINSANE the only way to get something to the next line?
+
+*/
+
+
+
+li{margin:0; padding: 0;}
+ul{margin:0; padding: 0}
+
+a{color:black; text-decoration: none;}
+
+a:hover, a:focus{text-decoration: none;}
+html{background-image:url('../images/background.png'); background-position: center top; }
+body{background-color:rgba(0,0,0,0); font-family: 'Oranienbaum', serif;}
+.container{background-color:rgba(0,0,0,0);}
+
+.logo{margin-top:30px; float:center;}
+
+
+.facebook{
+	background-image: url('../images/facebook.png'); 
+	height:40px; 
+	background-size:40px; 
+	width:40px;
+	background-repeat: no-repeat; 
+	overflow: hidden;   
+	color:rgba(255,255,255,0); 
+	text-decoration:none; 
+	display:block;
+	text-indent: 100%;
+	}
+	
+.facebook:hover{
+	background-image:url('../images/facebookhover.png'); 
+	color: color:rgba(255,255,255,0);}
+	
+.twitter{
+	background-image: url('../images/twitter.png'); 
+	height:40px; 
+	background-size:40px; 
+	background-repeat: no-repeat; 
+	overflow: hidden; 
+	text-indent:100%; 
+	color:rgba(255,255,255,0);  
+width: 40px}
+	
+.twitter:hover{background-image:url('../images/twitterhover.png');}
+.updown{float:right; position: ; color: maroon;}
+.facebooksmall{
+	background-image: url('../images/facebook.png'); 
+	height:50px; background-size:30px;
+	 background-repeat: no-repeat; 
+	 overflow: hidden; 
+	 color:rgba(255,255,255,0); 
+	 margin-top:10px;
+	 width:50px;
+	 }
+	 
+.facebooksmall:hover{
+	background-image:url('../images/facebookhover.png');}
+	
+.twittersmall{background-image: url('../images/twitter.png'); 
+	height:30px; background-size:30px; 
+	background-repeat: no-repeat; 
+	overflow: hidden; 
+	text-indent:100%;  
+	color:rgba(255,255,255,0); 
+	margin-top:10px; display:inline-block;
+width:30px;
+margin-left:10px;}
+	
+.twittersmall:hover{background-image:url('../images/twitterhover.png');}
+
+.address{border-bottom: 1px dotted #CCCC44; padding-bottom:6px;}
+.time{padding-top:6px;}
+
+.addresstime{
+	font-size:17px;
+	 text-align: center; 
+	 line-height: 1.4;
+	 margin-top:10px; 
+	 padding-top:10px; 
+	 padding-bottom: 10px; 
+	 color: #272727;}
+
+.black {color:black; 
+	background-color: black;
+	 font-size:16px;}
+
+.sideimagesmall{margin-top:30px;}
+
+.navigation{
+	
+	margin-top:10px;
+	margin-left:.5px; margin-right:.5px;
+	
+}
+
+
+.intro{
+	margin-top:40px;
+	font-size: 18px;
+	text-align: justify}
+
+.navitem{
+	color: gray;
+	display:block; 
+	text-transform: uppercase;
+	text-align: center; 
+	border-bottom:1px dotted gray; 
+	background-color:rgba(204, 203, 100, .60); 
+	font-size:15px; 
+	border-radius: 3%;
+}
+
+
+.navitem:hover{
+	color:maroon;
+	 background-color: rgba(204, 203, 100, .20); 
+	 border:0px solid red;}
+
+	
+.navitem{color:black; padding:10px;}
+
+.navitem:hover{color:maroon;}
+
+.bgcolor{background-color: black;}
+
+.top{text-align: center;}
+
+
+.starters{
+		font-size:14px; 
+		line-height: 1.4;}
+
+.menuitem{color:gray;
+	border-bottom: 1px dotted #CCCC44;
+	padding-bottom:7px;
+	margin-bottom:10px;
+	margin-top:0px; padding-top:0px;
+	
+}
+
+.price{
+	 color: #979758;
+	text-align: right;
+	
+	 }
+
+.bar{padding:0; margin-bottom: 0;}
+	
+.alc{
+	padding-top: 20px;
+	font-size: 15px;
+	 color: #CCCC44;
+	
+	text-align: right;
+	margin-bottom:13px;}
+
+	 
+.menutitle{
+	text-align:center; 
+	font-size:40px; 
+	letter-spacing: .2em;
+	text-transform: uppercase;
+	border-bottom: 1px dotted white; 
+	margin-top:60px;
+	margin-bottom: 40px;
+	color:rgba(255,255,255,0.78);
+	display:block;}
+	
+
+
+.menu_title_item{
+	text-transform: uppercase;
+		color:#CCCC44;
+	
+}
+
+#blackrow1{background-color:rgba(0,0,0,0.3); margin-top:-35px; }
+.blackrow{background-color:rgba(0,0,0,0.3);}
+}
+
+.imager{margin-bottom:30px;}
+
+.drinktype{color: #979758; margin-bottom: 20px; font-size:24px; margin-top:20px;}
+.drinktype1{color: white; margin-bottom: 10px; border-bottom:1px dotted gray; font-size:19px;  margin-top:20px;}
+.introlist{position:relative; padding:0;}
+.intro1{color:rgb(180,180,180); font-size:15px; display:none; line-height: 1.4; padding:30px;}
+.introlist:hover .intro1{display:block; position:absolute; top:0px; background-color:rgba(0,0,0,0.75);} 
+.extend{height:20px;}
+.omg{color:rgba(0,0,0,0.0);}
+
+
+.updown{
+	color: gray;
+	display:block; 
+	text-transform: uppercase;
+	text-align: center; 
+	background-color:rgba(204, 203, 100, .60); 
+	font-size:15px; 
+	border-radius: 3%;
+	font-size:12px;
+	padding:14px;
+	}
+	
+	
+
+
+
+.footerinfo{padding-top:20px;background-color: rgba(204, 203, 100, .60); padding-bottom: 15px;}
+
+
+
+.updown{position:fixed; padding-left:4px; color:black;}
+.updown:hover{color:#CCCC44;}
+
+.cateringinfo{color:gray; padding-bottom:50px;}
+.facebookfooter{margin-top:5px;}
+
+
+.twitterfooter{margin-left:5.5px; margin-top:5px;}
+
+@media (max-width: 767px) {#blackrow1{margin-top:0;}}
+
+@media (max-width: 990px) {
+	#drink-menu-malt {
+		clear: left;}
+	}
+
+@media (min-width:768px) {
+	.facebooktwitter{
+		padding-left:100px;
+		
+	}
+
+	
+}
+
+@media (max-width:420px) {.logo{ margin:20px; padding:0px;}}
+
+@media (max-width:710px){.address{border-bottom: 1px solid rgba(255,255,255,0); margin-top:15px;}}
+@media (max-width:700px) {.facebookfooter{margin:0px;}}
+@media (max-width:400px) {.addresstime{font-size:15px;} }
+@media (max-width:700px) {.phone{border-bottom: 1px dotted #CCCC44; font-size:20px; padding-bottom:2px; margin-top:0px; padding-top:0px;}}
+@media (max-width:700px) {.twitterfooter{margin-top:0px;}}
+@media (max-width:600px) {.twitterfooter{margin-top:0px; margin-left:0px;}}
+
+
