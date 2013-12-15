@@ -1,6 +1,5 @@
 
 
-
 li{margin:0; padding: 0;}
 ul{margin:0; padding: 0;}
 
@@ -205,7 +204,6 @@ margin-left:10px;}
 
 .footerinfo{padding-top:20px;background-color: rgba(204, 203, 100, .60); padding-bottom: 15px;}
 
-*{border:1px solid red;}
 
 .updown{position:fixed; padding-left:4px; color:black;}
 .updown:hover{color:#CCCC44;}
