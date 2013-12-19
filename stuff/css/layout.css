@@ -108,7 +108,7 @@ margin-left:10px;}
 
 .navitem{
 	color: gray;
-	display:block; 
+	display:inline-block; 
 	text-transform: uppercase;
 	text-align: center; 
 	border-bottom:1px dotted gray; 
